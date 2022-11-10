@@ -1,0 +1,44 @@
+1.-------variables--------
+
+pintar=1
+repeat(5)
+{
+        paintBlack()
+        forward(pintar)
+        right    
+        forward(pintar)
+        right
+        forward(pintar)
+        right
+        pintar=pintar+1
+               
+}
+
+2.--------- condicionantes---------
+si(frenteEsClaro())
+{
+    adelante(5)
+    tomar()
+    derecha()
+    pintarBlanco()
+    adelante(5)
+    poner()
+
+}
+otro{
+    atras(2)
+    }
+fin
+
+3.------- realice mientras-----
+
+repetir( ) {
+    si(frenteEsClaro){
+        pintarNegro()
+        adelante
+        }
+    otro{
+        derecha()
+         }
+    }
+
